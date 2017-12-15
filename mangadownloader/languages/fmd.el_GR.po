@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
-"Project-Id-Version: Free Manga Downloader 0.9.118\n"
+"Project-Id-Version: Free Manga Downloader 0.9.128\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: geogeo.gr <geogeo.gr@gmail.com>\n"
@@ -86,6 +86,7 @@ msgid "Unknown"
 msgstr "Άγνωστο"
 
 #: frmaccountmanager.rs_valid
+msgctxt "frmaccountmanager.rs_valid"
 msgid "OK"
 msgstr "Εντάξει"
 
@@ -358,6 +359,10 @@ msgstr "Διάνυσμα προετοιμασίας:"
 #: kissmanga.rs_kissmanga_key
 msgid "Key:"
 msgstr "Κλειδί:"
+
+#: kissmanga.rs_kissmanga_usegoogledcp
+msgid "Use Google DCP"
+msgstr "Χρήση Google DCP"
 
 #: mangafox.rs_removewatermark
 msgid "Remove watermark"
@@ -1121,6 +1126,11 @@ msgstr "Yuri"
 msgid "This work usually involves intimate relationships between women."
 msgstr "Το έργο αυτό συνήθως περιλαμβάνει στενές σχέσεις μεταξύ γυναικών."
 
+#: tmainform.ckoptionsalwaysstarttaskfromfailedchapters.caption
+msgctxt "tmainform.ckoptionsalwaysstarttaskfromfailedchapters.caption"
+msgid "Always start task from failed chapters"
+msgstr "Έναρξη εργασίας πάντα από τα κεφάλαια που απέτυχαν"
+
 #: tmainform.edcustomgenres.texthint
 msgid "Input custom genres, separated by comma"
 msgstr "Εισαγωγή προσαρμοσμένων ειδών, χωρισμένα με κόμμα"
@@ -1443,8 +1453,9 @@ msgstr ""
 "Το όνομα φακέλου Manga πρέπει να έχει τουλάχιστον %MANGA%.\n"
 
 #: tmainform.lboptionmaxparallel.caption
-msgid "Number of downloaded tasks at the same time (Max: 8)"
-msgstr "Αριθμός ταυτόχρονων εργασιών λήψης (Μέγ.: 8)"
+#| msgid "Number of downloaded tasks at the same time (Max: 8)"
+msgid "Number of downloaded tasks at the same time"
+msgstr "Αριθμός ταυτόχρονων εργασιών λήψης"
 
 #: tmainform.lboptionmaxretry.caption
 #| msgid "Number of retry times if tasks have download problems (0 = always retry)"
@@ -1452,8 +1463,9 @@ msgid "Number of retry times if tasks have download problems (-1 = always retry)
 msgstr "Αριθμός επαναλήψεων αν οι εργασίες έχουν προβλήματα λήψης (-1 = συνεχής επανάληψη)"
 
 #: tmainform.lboptionmaxthread.caption
-msgid "Number of downloaded files per task at the same time (Max: 32)"
-msgstr "Αριθμός ταυτόχρονα ληφθέντων αρχείων ανά εργασία (Μέγ: 32)"
+#| msgid "Number of downloaded files per task at the same time (Max: 32)"
+msgid "Number of downloaded files per task at the same time"
+msgstr "Αριθμός ταυτόχρονα ληφθέντων αρχείων ανά εργασία"
 
 #: tmainform.lboptionnewmangatime.caption
 msgid "New manga based on  it's update time (days)"
@@ -1489,6 +1501,10 @@ msgstr "Τύπος"
 #: tmainform.lboptionrenamedigits.caption
 msgid "Rename  digits"
 msgstr "Μετονομασία ψηφίων"
+
+#: tmainform.lboptionretryfailedtask.caption
+msgid "Number of retry times if task failed"
+msgstr "Αριθμός επαναλήψεων αν αποτύχει η εργασία"
 
 #: tmainform.lboptionuser.caption
 msgctxt "tmainform.lboptionuser.caption"
@@ -1992,6 +2008,15 @@ msgstr "&Λήψη"
 msgctxt "TNEWCHAPTER.BTQUEUE.CAPTION"
 msgid "&Add to queue"
 msgstr "&Προσθήκη στην ουρά"
+
+#: tselectdirectoryform.btok.caption
+msgctxt "tselectdirectoryform.btok.caption"
+msgid "OK"
+msgstr "Εντάξει"
+
+#: tselectdirectoryform.caption
+msgid "Select directory"
+msgstr "Επιλέξτε κατάλογο"
 
 #: tshutdowncounterform.btabort.caption
 msgid "&Abort"
